@@ -25,7 +25,7 @@ system("color f1");
 		
 		for (i=0; i<10; i++)
 		{
-			word=a[i];
+			word=a[i];  //8etw to keli a[i] se ena string "word" wste na xrhsimopoihsw to word san pinaka grammatwn apo katw
 			for (j=0; j<word.size(); j++)
 			{	
 				for (k=0; k<256; k++)
@@ -39,7 +39,7 @@ system("color f1");
 		}
 		
 		max=0;
-		for (k=1; k<256; k++)
+		for (k=0; k<256; k++)
 		{
 			if (count[k]>max)
 			{
