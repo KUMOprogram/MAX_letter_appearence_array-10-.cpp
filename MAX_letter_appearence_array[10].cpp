@@ -15,12 +15,12 @@ system("color f1");
 		for (i=0; i<10; ++i)
 		{
 			cout<<"Dwse le3h "<<i+1<<": ";
-			getline(cin,a[i]);
+			getline(cin,a[i]);  //diabasma le3ewn me kena anamesa tous
 		}
 				
 		for (k=0; k<256; k++)
 		{
-			count[k]=0;
+			count[k]=0;   //arxikopoihsh
 		}
 		
 		for (i=0; i<10; i++)
